@@ -12,10 +12,12 @@
     <div class="wrapper">
         <header class="header">
             <nav class="navbar">
-                <div class="logo">
-                    <span class="logo__success-text">SINGOLO</span>
-                    <span class="logo__other-text">*</span>
-                </div>
+                <a href="#">
+                    <h1 class="logo">
+                        <span class="logo__success-text">SINGOLO</span>
+                        <span class="logo__other-text">*</span>
+                    </h1>
+                </a>
                 <ul class="navbar__list">
                     <li class="list__item">
                         <a href="#">HOME</a>
@@ -37,54 +39,82 @@
         </header>
         <main class="main">
             <section class="slider">
-                <div class="slider__prev"><span></span></div>
+                <div class="slider__button slider__btn_left">
+                    <button class="slider__prev">
+                        <img src="assets/arrow.svg" alt="">
+                    </button>
+                </div>
                 <div class="slider__slider-list">
                     <div class="slider-list__item">
-                        <img class="shadow" src="assets/shadow.png" alt="">
-                        <img class="vertical-phone" src="assets/phone.svg" alt="">
-                        <div class="screen-wrapper">
-                            <img class="first-screen" src="assets/firstscreen.png" alt="">
+                        <div class="phone vertical_phone">
+                            <img class="phone__container" src="assets/phone.png" alt="">
+                            <div class="phone__screen-wrapper vertical_screen">
+                                <img class="first-screen" src="assets/firstscreen.png" alt="">
+                            </div>
                         </div>
                     </div>
                     <div class="slider-list__item">
-                        <img class="shadow" src="assets/shadow.png" alt="">
-                        <img class="horizontal-phone" src="assets/phone.svg" alt="">
-                        <div class="screen-wrapper">
-                            <img class="second-screen" src="assets/secondscreen.png" alt="">
+                        <div class="phone horizontal_phone">
+                            <img class="phone__container" src="assets/phone.png" alt="">
+                            <div class="phone__screen-wrapper">
+                                <img class="second-screen" src="assets/secondscreen.png" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="slider__next"><span></span></div>    
+                <div class="slider__button slider__btn_right">
+                    <button class="slider__next">
+                        <img src="assets/arrow.svg" alt="">
+                    </button>
+                </div>    
             </section>
             <section class="services">
                 <div class="description">
-                    <h1 class="title">Our Services</h1>
-                    <p class="intro-text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+                    <h2 class="services__title">Our Services</h2>
+                    <p class="services__intro-text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
                 </div>
                 <div class="services__items">
-                    <div class="service service_design">
-                        <h3 class="service__title">Custom Design</h3>
-                        <p class="service__description">Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p>
+                    <div class="service">
+                        <img class="service__img" src="assets/pen.svg" alt="">
+                        <div class="text-container">
+                            <h3 class="service__title">Custom Design</h3>
+                            <p class="service__description">Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p>
+                        </div>
                     </div>
-                    <div class="service service_ideas">
-                        <h3 class="service__title">Inovative Ideas</h3>
-                        <p class="service__description">Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.</p>
+                    <div class="service">
+                        <img class="service__img" src="assets/bulb.svg" alt="">
+                        <div class="text-container">
+                            <h3 class="service__title">Inovative Ideas</h3>
+                            <p class="service__description">Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.</p>
+                        </div>
                     </div>
-                    <div class="service service_answer">
-                        <h3 class="service__title">Love Is The Answer</h3>
-                        <p class="service__description">Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.</p>
+                    <div class="service">
+                        <img class="service__img" src="assets/heart.svg" alt="">
+                        <div class="text-container">
+                            <h3 class="service__title">Love Is The Answer</h3>
+                            <p class="service__description">Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.</p>
+                        </div>
                     </div>
-                    <div class="service service_layout">
-                        <h3 class="service__title">Responsive Layout</h3>
-                        <p class="service__description">Sed porttitor placerat rhoncus. In at nunc tellus. Maecenas blandit nunc ligula. Praesent elit </p>
+                    <div class="service">
+                        <img class="service__img" src="assets/phone.svg" alt="">
+                        <div class="text-container">
+                            <h3 class="service__title">Responsive Layout</h3>
+                            <p class="service__description">Sed porttitor placerat rhoncus. In at nunc tellus. Maecenas blandit nunc ligula. Praesent elit </p>
+                        </div>
                     </div>
-                    <div class="service service_support">
-                        <h3 class="service__title">24 / 7 Support</h3>
-                        <p class="service__description">Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi. Nulla a sem erat. Pellentesque egestas venenatis lorem .</p>
+                    <div class="service">
+                        <img class="service__img" src="assets/bubble.svg" alt="">
+                        <div class="text-container">
+                            <h3 class="service__title">24 / 7 Support</h3>
+                            <p class="service__description">Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi. Nulla a sem erat. Pellentesque egestas venenatis lorem .</p>
+                        </div>
                     </div>
-                    <div class="service service_star">
-                        <h3 class="service__title">Feel Like A Star</h3>
-                        <p class="service__description">Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus.</p>
+                    <div class="service">
+                        <img class="service__img" src="assets/star.svg" alt="">
+                        <div class="text-container">
+                            <h3 class="service__title">Feel Like A Star</h3>
+                            <p class="service__description">Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus.</p>
+                        </div>
                     </div>
                 </div>
             </section>
