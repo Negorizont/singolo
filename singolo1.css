@@ -241,6 +241,7 @@ a {
 
 .service .text-container {
     padding-left: 18px;
+    text-overflow: hidden;
 }
 
 .service__title {
