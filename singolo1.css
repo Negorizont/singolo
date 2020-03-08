@@ -222,6 +222,7 @@ a {
 
 .services__items {
     padding-top: 16px;
+    padding-bottom: 44px;
     display: grid;
     grid-template-columns: 300px 300px 300px;
     justify-content: space-between;
@@ -257,5 +258,5 @@ a {
     line-height: 22px;
     color: #767e9e;
     font-weight: 400;
-    text-align: left;
+    text-align: justify;
 }

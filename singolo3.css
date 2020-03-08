@@ -163,6 +163,7 @@ a.contacts__item:hover {
 
 .footer {
     padding: 0 40px;
+    padding-bottom: 2px;
     display: flex;
     justify-content: space-between;
     background-color: #2d303a;
