@@ -12,9 +12,12 @@ a {
 }
 
 .header {
-    padding: 24px 40px 25px;
     border-bottom: 6px solid #323746;
     background-color: #2d303a;
+}
+
+.header .wrapper {
+    padding: 24px 83px 25px;
 }
 
 .navbar {
@@ -79,8 +82,11 @@ a {
 }
 
 .slider {
-    display: flex;
     background-color: #f06c64;
+}
+
+.slider .wrapper {
+    display: flex;
     padding: 52px 0px 64px;
 }
 
@@ -139,6 +145,8 @@ a {
     background: url('assets/shadow.png') no-repeat;
     background-size: cover;
 }
+
+.horizontal_phone 
 
 .horizontal_phone {
     width: 484px;
@@ -201,12 +209,15 @@ a {
 }
 
 .services {
-    padding: 68px 39px 0;   
     color: #666d89;
     font-size: 18px;
     line-height: 30px;
     font-weight: 300;
     background-color: #f2f2f2;
+}
+
+.services .wrapper {
+    padding: 68px 83px 0;
 }
 
 .services__title {
@@ -262,9 +273,12 @@ a {
 }
 
 .portfolio {
-    padding: 0 40px 67px;
     border-bottom: 6px solid #323746;
     background-color: #2d303a;
+}
+
+.portfolio .wrapper {
+    padding: 0 83px 67px;
 }
 
 .section-title {
@@ -399,9 +413,12 @@ a {
 }
 
 .about {
-    padding: 0 40px 61px;
     border-bottom: 6px solid #ffffff;
     background-color: #f2f2f2;
+}
+
+.about .wrapper {
+    padding: 0 83px 61px;
 }
 
 .workers {
@@ -450,13 +467,15 @@ a {
 }
 
 .get-quote {
-    padding: 43px 40px 20px;
-    display: grid;
     border-bottom: 6px solid #ea676b;
-    grid-template-columns: 1fr 300px;
-    gap: 20px 21px; 
     background-color: #f06c64;
-    
+}
+
+.get-quote .wrapper {
+    padding: 43px 83px 20px;
+    display: grid;
+    gap: 20px 21px; 
+    grid-template-columns: 1fr 300px;
 }
     
 .description {
@@ -604,11 +623,13 @@ a.contacts__item:hover {
 }
 
 .footer {
-    padding: 0 40px;
-    padding-bottom: 2px;
+    background-color: #2d303a;
+}
+
+.footer .wrapper {
     display: flex;
     justify-content: space-between;
-    background-color: #2d303a;
+    padding: 0 83px 2px;
 }
 
 .copyright {

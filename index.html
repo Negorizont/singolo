@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="wrapper">
-        <header class="header">
+    <header class="header">
+        <div class="wrapper">
             <nav class="navbar">
                 <a href="#">
                     <h1 class="logo">
@@ -36,9 +36,11 @@
                     </li>
                 </ul>
             </nav>
-        </header>
-        <main class="main">
-            <section class="slider">
+        </div>
+    </header>
+    <main class="main"> 
+        <section class="slider">
+            <div class="wrapper">
                 <div class="slider__button slider__btn_left">
                     <button class="slider__prev">
                         <img src="assets/arrow.svg" alt="">
@@ -51,6 +53,9 @@
                             <div class="phone__screen-wrapper vertical_screen">
                                 <img class="first-screen" src="assets/firstscreen.png" alt="">
                             </div>
+                            <button class="phone__button vertical_button">
+                                <img src="./assets/Home.svg" alt="">
+                            </button>
                         </div>
                     </div>
                     <div class="slider-list__item">
@@ -59,6 +64,9 @@
                             <div class="phone__screen-wrapper">
                                 <img class="second-screen" src="assets/secondscreen.png" alt="">
                             </div>
+                            <button class="phone__button horizontal_button">
+                                <img src="./assets/Home.svg" alt="">
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -66,9 +74,11 @@
                     <button class="slider__next">
                         <img src="assets/arrow.svg" alt="">
                     </button>
-                </div>    
-            </section>
-            <section class="services">
+                </div>
+            </div>
+        </section>
+        <section class="services">
+            <div class="wrapper">
                 <div class="description">
                     <h2 class="services__title">Our Services</h2>
                     <p class="services__intro-text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
@@ -117,8 +127,10 @@
                         </div>
                     </div>
                 </div>
-            </section>
-            <section class="portfolio">
+            </div>
+        </section>
+        <section class="portfolio">
+            <div class="wrapper">
                 <h5 class="section-title">Portfolio</h5>
                 <p class="section-description">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
                 <ul class="tabs">
@@ -165,8 +177,10 @@
                         <img src="assets/portfolio/12.png" alt="glass">
                     </div>
                 </div>
-            </section>
-            <section class="about">
+            </div>
+        </section>
+        <section class="about">
+            <div class="wrapper">
                 <h5 class="section-title">About Us</h5>
                 <p class="section-description">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
                 <div class="workers">
@@ -228,8 +242,10 @@
                         </div>
                     </div>
                 </div>
-            </section>
-            <section class="get-quote">
+            </div>
+        </section>
+        <section class="get-quote">
+            <div class="wrapper">
                 <div class="description">
                     <h2 class="get-quote__title">Get a Quote</h2>
                     <p class="get-quote__intro-text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
@@ -256,9 +272,11 @@
                         </li>
                     </ul>
                 </div>
-            </section>
-        </main>
-        <footer class="footer">
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="wrapper">
             <p class="copyright">© Copyright 2013</p>
             <ul class="links">
                 <li>
@@ -282,7 +300,8 @@
                     </a>
                 </li> 
             </ul>
-        </footer>
-    </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
